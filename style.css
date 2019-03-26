@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff')
+    format('woff'); font-weight: normal;
+    font-style: normal;
+}
+*  {
+    padding: 0;
+    margin: 0;
+}
+div.bar > p {
+    display: inline-block;
+    margin: 0.8% 2.5%;
+    padding: 0;
+    border: 1px solid red;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+#brand{
+    font-size: 30px;
+    font-family: KCC-eunyoung;
+    margin-left: 30%;
+}
+#page {
+    background-color: red;
+    color: white;
+}
+div.main > img.main_img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.back {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+div.back > div.info {
+    float: left;
+    padding: 0;
+    margin: 5% 0 auto 8%;
+    width: 40%;
+    height: auto;
+}
+div.back > div.info > p {
+    display: inline-block;
+}
+div.back > div.info > p.title {
+    font-family: KCC-eunyoung;
+    padding: 0 5% 0 0;
+    margin: 5% 0 5% 5%;
+    border-right: black 1px solid;
+    vertical-align: top;
+    font-size: 30px;
+}
+div.back > div.info > p.t {
+    width: 70%;
+    vertical-align: top;
+    margin: 5% 0 5% 3%;
+    padding: 0;
+    font-family: S-CoreDream-4Regular;
+}
+div.back > div.news {
+    float: right;
+    margin: 5% 10% 5% auto;
+    padding: 0;
+    width: 35%
+}
+div.news > p {
+    padding:  5% 0;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+div.news > table {
+    color: gray;
+    width: 100%;
+}
+td {
+    font-family: S-CoreDream-4Regular;
+    padding-bottom: 2%;
+}
+td.date {
+    font-size: 12px;
+}
