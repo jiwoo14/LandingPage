@@ -7,19 +7,21 @@
 }
 *  {
     padding: 0;
-    margin: 0;
+    margin: 0;;
+}
+div.bar {
+    min-width: 1200px;
 }
 div.bar > p {
     display: inline-block;
     margin: 0.8% 2.5%;
     padding: 0;
     border: 1px solid red;
-    font-size: 15px;
-    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
     letter-spacing: 1px;
 }
 #brand{
-    font-size: 30px;
+    font-size: 3em;
     font-family: KCC-eunyoung;
     margin-left: 30%;
 }
@@ -37,22 +39,25 @@ div.main > img.main_img {
     margin: 0;
     padding: 0;
     width: 100%;
+    min-width: 1200px;
     height: auto;
 }
 div.address {
     display: inline;
+    width: 100%;
+    min-width: 1200px;
 }
 #map_canvas {
     position: absolute;
     float: left;
     width: 30%;
     height: 40%;
-    margin: 3% auto auto 15%;
+    margin: 3% 15% auto 15%;
 }
 div.address > div.info_address {
     float: right;
     font-family: S-CoreDream-4Regular;
-    margin: 7% 15% auto auto;
+    margin: 7% 15% auto 0;
 }
 #first {
     margin-bottom: 4%;
